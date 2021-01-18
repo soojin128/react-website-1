@@ -1,17 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import {Button} from './Button'
-import './Footer.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {Button} from './Button';
+import './Footer.css';
 
 function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+        어드벤처 뉴스 레터에 가입하여 최고의 휴가 상품을 받으세요.
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+        언제든지 구독을 취소 할 수 있습니다.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
             placeholder='Your Email'
             className='footer-input'
             />
-            <Button buttonStyle='btn---outline'>Subscribe</Button>
+            <Button buttonStyle='btn---outline'>구독</Button>
           </form>
         </div>
       </section>
@@ -118,4 +118,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;
